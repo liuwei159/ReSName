@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+results_317/
+binary_artifacts/
+*.log
+*.bak
+read_src_data_v2/data_all_unique_O0.json
+src_data_add_binary_code_v2/data_all_unique_O0_with_binary.json

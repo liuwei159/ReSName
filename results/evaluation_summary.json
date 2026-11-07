@@ -1,0 +1,515 @@
+{
+    "complete": true,
+    "evaluated_samples": 317,
+    "expected_samples": 317,
+    "averages": {
+        "baseline:binary_direct": {
+            "all": {
+                "count": 317,
+                "C1_mean": 1.5930599369085174,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 1.6601307189542485,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 1.5304878048780488,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 1.205128205128205,
+                "C2_mean": 1.0
+            }
+        },
+        "baseline:binary_summary": {
+            "all": {
+                "count": 317,
+                "C1_mean": 1.9053627760252365,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 1.9803921568627452,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 1.8353658536585367,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 1.564102564102564,
+                "C2_mean": 1.0
+            }
+        },
+        "baseline:raw_asm_direct": {
+            "all": {
+                "count": 317,
+                "C1_mean": 2.6813880126182967,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 2.849673202614379,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 2.524390243902439,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 1.8974358974358974,
+                "C2_mean": 1.0
+            }
+        },
+        "baseline:raw_asm_summary": {
+            "all": {
+                "count": 317,
+                "C1_mean": 3.0189274447949526,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 3.183006535947712,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 2.8658536585365852,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 2.1794871794871793,
+                "C2_mean": 1.0
+            }
+        },
+        "baseline:ida_asm_direct": {
+            "all": {
+                "count": 317,
+                "C1_mean": 3.4321766561514195,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 3.4705882352941178,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 3.3963414634146343,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 2.7435897435897436,
+                "C2_mean": 1.0
+            }
+        },
+        "baseline:ida_asm_summary": {
+            "all": {
+                "count": 317,
+                "C1_mean": 3.829652996845426,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 3.9019607843137254,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 3.7621951219512195,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 3.358974358974359,
+                "C2_mean": 1.0
+            }
+        },
+        "baseline:ghidra_asm_direct": {
+            "all": {
+                "count": 317,
+                "C1_mean": 2.832807570977918,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 3.156862745098039,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 2.5304878048780486,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 1.9743589743589745,
+                "C2_mean": 1.0
+            }
+        },
+        "baseline:ghidra_asm_summary": {
+            "all": {
+                "count": 317,
+                "C1_mean": 3.1577287066246056,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 3.4705882352941178,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 2.8658536585365852,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 2.7948717948717947,
+                "C2_mean": 1.0
+            }
+        },
+        "baseline:ida_pseudo_direct": {
+            "all": {
+                "count": 317,
+                "C1_mean": 3.952681388012618,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 3.9607843137254903,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 3.9451219512195124,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 3.3076923076923075,
+                "C2_mean": 1.0
+            }
+        },
+        "baseline:ida_pseudo_summary": {
+            "all": {
+                "count": 317,
+                "C1_mean": 4.094637223974764,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 4.176470588235294,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 4.0182926829268295,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 3.3076923076923075,
+                "C2_mean": 1.0
+            }
+        },
+        "baseline:ghidra_pseudo_direct": {
+            "all": {
+                "count": 317,
+                "C1_mean": 3.810725552050473,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 3.915032679738562,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 3.7134146341463414,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 3.1025641025641026,
+                "C2_mean": 1.0
+            }
+        },
+        "baseline:ghidra_pseudo_summary": {
+            "all": {
+                "count": 317,
+                "C1_mean": 3.996845425867508,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 4.117647058823529,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 3.8841463414634148,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 3.230769230769231,
+                "C2_mean": 1.0
+            }
+        },
+        "multiview:v3": {
+            "all": {
+                "count": 317,
+                "C1_mean": 4.110410094637224,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 4.124183006535947,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 4.097560975609756,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 3.7435897435897436,
+                "C2_mean": 1.0
+            }
+        },
+        "multiview:v3_single": {
+            "all": {
+                "count": 317,
+                "C1_mean": 4.280757097791798,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 4.313725490196078,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 4.25,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 4.051282051282051,
+                "C2_mean": 1.0
+            }
+        },
+        "multiview:v3_single_no_evidence": {
+            "all": {
+                "count": 317,
+                "C1_mean": 4.186119873817034,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 4.287581699346405,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 4.091463414634147,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 3.282051282051282,
+                "C2_mean": 1.0
+            }
+        },
+        "multiview:v3_no_evidence": {
+            "all": {
+                "count": 317,
+                "C1_mean": 4.100946372239748,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 4.1568627450980395,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 4.048780487804878,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 3.6666666666666665,
+                "C2_mean": 1.0
+            }
+        },
+        "multiview:simple_fusion_5": {
+            "all": {
+                "count": 317,
+                "C1_mean": 4.100946372239748,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 4.1568627450980395,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 4.048780487804878,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 3.6666666666666665,
+                "C2_mean": 1.0
+            }
+        },
+        "multiview:simple_fusion_single": {
+            "all": {
+                "count": 317,
+                "C1_mean": 4.230283911671925,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 4.294117647058823,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 4.170731707317073,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 3.641025641025641,
+                "C2_mean": 1.0
+            }
+        },
+        "multiview:concat_5": {
+            "all": {
+                "count": 317,
+                "C1_mean": 4.041009463722397,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 4.065359477124183,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 4.0182926829268295,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 3.4615384615384617,
+                "C2_mean": 1.0
+            }
+        },
+        "multiview:ida_summary_5": {
+            "all": {
+                "count": 317,
+                "C1_mean": 4.009463722397476,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 4.098039215686274,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 3.926829268292683,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 3.3076923076923075,
+                "C2_mean": 1.0
+            }
+        },
+        "multiview:ghidra_summary_5": {
+            "all": {
+                "count": 317,
+                "C1_mean": 3.968454258675079,
+                "C2_mean": 1.0
+            },
+            "c": {
+                "count": 153,
+                "C1_mean": 4.045751633986928,
+                "C2_mean": 1.0
+            },
+            "cpp": {
+                "count": 164,
+                "C1_mean": 3.8963414634146343,
+                "C2_mean": 1.0
+            },
+            "conflict": {
+                "count": 39,
+                "C1_mean": 3.1538461538461537,
+                "C2_mean": 1.0
+            }
+        }
+    },
+    "conflict_subset": {
+        "defined_by": "multiview:v3_single relationship=Contradictory",
+        "count": 39,
+        "indices": [
+            1028,
+            1036,
+            1048,
+            1088,
+            1112,
+            1140,
+            1292,
+            152,
+            180,
+            204,
+            216,
+            276,
+            288,
+            320,
+            336,
+            392,
+            412,
+            416,
+            420,
+            468,
+            472,
+            508,
+            516,
+            532,
+            536,
+            540,
+            544,
+            564,
+            568,
+            584,
+            616,
+            620,
+            628,
+            64,
+            696,
+            800,
+            808,
+            904,
+            952
+        ]
+    },
+    "note": "Final means are withheld until every fixed sample has a complete evaluation."
+}
